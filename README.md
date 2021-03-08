@@ -12,6 +12,8 @@ The computer-side software is made in [Python 3](https://www.python.org/), so ma
 The pyserial library is also required. Install it with `pip install pyserial`.
 
 ## Usage
+The EEPROM chip goes into the socket closest to the lever, with the chip's notch facing the lever, like so:  
+<img src="Pictures/chippos.jpg" alt="Chip Position" width="500">  
 The software can be run from command-line using `python WriteEEPROM.py`.  
 On Windows, the COM port can be found in Device Manager, under the "Ports" section.
 Arg 1 = COM port of EEPROM Arduino (usually COM3)
