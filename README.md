@@ -15,10 +15,10 @@ The pyserial library is also required. Install it with `pip install pyserial`.
 The EEPROM chip goes into the socket closest to the lever, with the chip's notch facing the lever, like so:  
 <img src="Pictures/chippos.jpg" alt="Chip Position" width="500">  
 The software can be run from command-line using `python WriteEEPROM.py`.  
-On Windows, the COM port can be found in Device Manager, under the "Ports" section.
-Arg 1 = COM port of EEPROM Arduino (usually COM3)
-Arg 2 = R, W, V (read, write or verify)
-Arg 3 = Name of file to read from or write to
+On Windows, the COM port can be found in Device Manager, under the "Ports" section.  
+Arg 1 = COM port of EEPROM Arduino (usually COM3)  
+Arg 2 = R, W, V (read, write or verify)  
+Arg 3 = Name of file to read from or write to  
 Read will read the image from the EEPROM and save it to a file on your computer.  
 Write will write the image from a file onto the EEPROM.  
 Verify will compare the data on the EEPROM to a given file, and tell you if they match.  
