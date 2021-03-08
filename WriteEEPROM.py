@@ -3,8 +3,6 @@
 # Arg 2 = R, W, V (read, write or verify)
 # Arg 3 = Name of file to read from or write to
 
-# todo: "verify" function to compare EEPROM with file
-
 import sys
 from time import sleep
 import serial
